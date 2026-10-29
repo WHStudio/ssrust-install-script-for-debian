@@ -777,7 +777,7 @@ write_client_files() {
   server: ${srv}
   port: ${PORT}
   cipher: ${METHOD}
-  password: \"${pw}\"
+  password: ${pw}
   udp: true"
     j="$(jq -n --arg s "${SERVER_ADDRESS}" --argjson p "${PORT}" --arg m "${METHOD}" --arg pw "${pw}" --arg r "${name}" \
       '{servers: [{server: $s, server_port: $p, method: $m, password: $pw, remarks: $r}]}')"
