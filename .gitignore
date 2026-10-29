@@ -1,0 +1,7 @@
+# 测试环境（Debian rootfs、二进制、输出）不入库
+test/rootfs/
+test/bin/
+test/work/
+*.bak*
+*.tar.xz
+*.sha256
