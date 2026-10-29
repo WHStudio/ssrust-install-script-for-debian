@@ -94,7 +94,7 @@ proxies:
   server: 203.0.113.10
   port: 6666
   cipher: 2022-blake3-aes-128-gcm
-  password: "password"
+  password: password
   udp: true
 ```
 
